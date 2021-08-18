@@ -1,0 +1,875 @@
+{
+  "metadata": {
+    ".zattrs": {
+      "Conventions": "CF-1.7",
+      "converted_by": "Hauke Schulz (hauke.schulz@mpimet.mpg.de)",
+      "created_with": "convert_wxt2nc.py with its last modification on Thu Aug 29 10:38:53 2019",
+      "devices": "Vaisala WXT-520",
+      "height": "20 m above ground",
+      "institution": "Max Planck Institute for Meteorology",
+      "location": "The Barbados Cloud Observatory, Deebles Point, Barbados, West Indies",
+      "position": "13.1627 N, -59.4289 E",
+      "python_version": "3.6.9 |Anaconda, Inc.| (default, Jul 30 2019, 19:07:31) \n[GCC 7.3.0] (with numpy version :1.15.4)",
+      "resolution": "Temporal resolution = 10s",
+      "source": "/pool/OBS/BARBADOS_CLOUD_OBSERVATORY/Level_0/12_Weathersensors/202001/Meteorology__Deebles_Point__2m__20200102.wxt",
+      "title": "WXT-2 ground station",
+      "version": "1.1.1-429-g4101d65"
+    },
+    ".zgroup": {
+      "zarr_format": 2
+    },
+    "DIR/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "DIR/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "wind direction",
+      "standard_name": "wind_from_direction",
+      "units": "degree"
+    },
+    "DL/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "DL/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "extreme left wind direction",
+      "units": "degree"
+    },
+    "DR/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "DR/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "extreme right wind direction",
+      "units": "degree"
+    },
+    "H/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "H/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "strikes of hail",
+      "units": "cm-2"
+    },
+    "HDH/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "HDH/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "duration of hail in hour",
+      "units": "h"
+    },
+    "HDS/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "HDS/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "duration of hail in second",
+      "units": "s"
+    },
+    "HI/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "HI/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "mean hail intensity",
+      "units": "cm-2"
+    },
+    "HP/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "HP/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "summit of hail intensity",
+      "units": "cm-2"
+    },
+    "MNV/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "MNV/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "minimum wind speed",
+      "units": "m s-1"
+    },
+    "MXHI/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "MXHI/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "max hail intensity",
+      "units": "cm-2"
+    },
+    "MXRI/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "MXRI/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "max rain intensity",
+      "units": "mm h-1"
+    },
+    "MXV/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "MXV/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "maximum wind speed",
+      "units": "m s-1"
+    },
+    "P/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "P/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "pressure",
+      "standard_name": "air_pressure",
+      "units": "hPa"
+    },
+    "R/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "R/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "amount of rain",
+      "standard_name": "rainfall_amount",
+      "units": "kg m-2"
+    },
+    "RDH/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "RDH/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "duration of rain in hour",
+      "units": "h"
+    },
+    "RDS/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "RDS/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "duration of rain in second",
+      "units": "s"
+    },
+    "RH/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "RH/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "relative humidity in percent",
+      "standard_name": "relative_humidity",
+      "units": "1"
+    },
+    "RI/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "RI/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "mean rain intensity",
+      "units": "mm h-1"
+    },
+    "RP/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "RP/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "summit of rain intensity",
+      "units": "mm h-1"
+    },
+    "SDQ/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "SDQ/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "data quality in %",
+      "units": "1"
+    },
+    "T/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "T/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "temperature",
+      "standard_name": "air_temperature",
+      "units": "degree_Celsius"
+    },
+    "TH/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "TH/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "heater temperature",
+      "units": "degree_Celsius"
+    },
+    "TI/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "TI/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "internal temperature",
+      "units": "degree_Celsius"
+    },
+    "VEL/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "VEL/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "wind speed",
+      "standard_name": "wind_speed",
+      "units": "m s-1"
+    },
+    "VH/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "VH/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "electric power at the heater",
+      "units": "V"
+    },
+    "VR/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "VR/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "reverence voltage",
+      "units": "V"
+    },
+    "VS/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "VS/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "supply voltage",
+      "units": "V"
+    },
+    "YYYYMMDDHH/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f8",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "YYYYMMDDHH/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "timestring in the format Year_Month_Day_Hour. Corresponding values are in UTC.",
+      "units": "1"
+    },
+    "bco_day/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;f4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "bco_day/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "long_name": "days since start of Barbados Cloud Observatory measurements",
+      "units": "days since 2010-4-1 0:00:00 UTC"
+    },
+    "lat/.zarray": {
+      "chunks": [],
+      "compressor": null,
+      "dtype": "&lt;f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [],
+      "zarr_format": 2
+    },
+    "lat/.zattrs": {
+      "_ARRAY_DIMENSIONS": [],
+      "standard_name": "latitude",
+      "units": "degree_north",
+      "valid_max": 90,
+      "valid_min": -90
+    },
+    "lon/.zarray": {
+      "chunks": [],
+      "compressor": null,
+      "dtype": "&lt;f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [],
+      "zarr_format": 2
+    },
+    "lon/.zattrs": {
+      "_ARRAY_DIMENSIONS": [],
+      "standard_name": "longitude",
+      "units": "degree_east",
+      "valid_max": 180,
+      "valid_min": -180
+    },
+    "time/.zarray": {
+      "chunks": [
+        7707
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "&lt;i4",
+      "fill_value": -999,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        7707
+      ],
+      "zarr_format": 2
+    },
+    "time/.zattrs": {
+      "_ARRAY_DIMENSIONS": [
+        "time"
+      ],
+      "axis": "T",
+      "calendar": "gregorian",
+      "standard_name": "time",
+      "units": "seconds since 1970-1-1 0:00:00 UTC"
+    }
+  },
+  "zarr_consolidated_format": 1
+}
